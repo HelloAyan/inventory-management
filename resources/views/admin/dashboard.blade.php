@@ -1,1 +1,9 @@
-<h1> hi from dashboard</h1>
+@extends('admin.layouts.template')
+
+@section('page_title')
+    Dashboard - Inventory Management System
+@endsection
+
+@section('content')
+    hello from dashboard
+@endsection
