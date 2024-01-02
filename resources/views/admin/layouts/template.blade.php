@@ -89,7 +89,7 @@
           <ul class="menu-inner py-1">
             <!-- Dashboard -->
             <li class="menu-item active">
-              {{-- <a href="{{ route('admindashboard') }}" class="menu-link"> --}}
+              <a href="{{ route('admindashboard') }}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
@@ -100,14 +100,14 @@
               <span class="menu-header-text">Category</span>
             </li>
             <li class="menu-item ">
-              {{-- <a href="{{ route('addCategory') }}" class="menu-link"> --}}
+              <a href="{{ route('addcategory') }}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Add Category</div>
               </a>
             </li>
             
             <li class="menu-item ">
-              {{-- <a href="{{ route('allCategory') }}" class="menu-link"> --}}
+              <a href="{{ route('allcategory') }}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">All Category</div>
               </a>
@@ -117,13 +117,13 @@
               <span class="menu-header-text">Sub Category</span>
             </li>
             <li class="menu-item ">
-              {{-- <a href="{{ route('addSubCategory') }}" class="menu-link"> --}}
+              <a href="{{ route('addsubcategory') }}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Add Sub Category</div>
               </a>
             </li>
             <li class="menu-item ">
-              {{-- <a href="{{ route('allSubCategory') }}" class="menu-link"> --}}
+              <a href="{{ route('allsubcategory') }}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">All Sub Category</div>
               </a>
@@ -133,13 +133,13 @@
               <span class="menu-header-text">Product</span>
             </li>
             <li class="menu-item ">
-              {{-- <a href="{{ route('addProduct') }}" class="menu-link"> --}}
+              <a href="{{ route('addproduct') }}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Add Product</div>
               </a>
             </li>
             <li class="menu-item ">
-              {{-- <a href="{{ route('allProduct') }}" class="menu-link"> --}}
+              <a href="{{ route('allproduct') }}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">All Product</div>
               </a>
@@ -149,7 +149,7 @@
               <span class="menu-header-text">Order</span>
             </li>
             <li class="menu-item ">
-              {{-- <a href="{{ route('pendingOrder') }}" class="menu-link"> --}}
+              <a href="{{ route('allorder') }}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Pending Orders</div>
               </a>
