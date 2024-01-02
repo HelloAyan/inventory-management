@@ -1,7 +1,7 @@
 @extends('admin.layouts.template')
 
 @section('page_title')
-    Dashboard - Inventory Management System
+    Dashboard - Add Sub Category
 @endsection
 
 @section('content')
